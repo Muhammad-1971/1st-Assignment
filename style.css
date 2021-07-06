@@ -493,5 +493,9 @@ font-family: 'Rajdhani', sans-serif;
   text-decoration: underline black;
   font-family: 'Nunito', sans-serif;
 }
+.footer h1:hover{
+  transform: scale(1.1);
+  transition: all 0.3s linear;
+}
 
 
