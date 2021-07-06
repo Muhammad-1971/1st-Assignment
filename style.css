@@ -415,4 +415,13 @@ background-position: right;
 #mail{
   align-items: center;
 }
+#last{
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}
+#last h2{
+  margin-left: 60%;
+  text-align: center;
+}
 
