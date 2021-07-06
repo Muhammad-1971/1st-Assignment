@@ -264,3 +264,22 @@ background-position: right;
    text-align: justify;
    font-size: 18px;
  }
+ /* social sector */
+ .social-box-1{
+  height: 35vh;
+  width: 100%;
+  display: flex;
+ 
+ 
+   
+ }
+ .box-social{
+  margin: 0 auto;
+   padding: 20px;
+   height: 15vh;
+   width: 75%;
+   border: 1px solid black;
+   box-shadow: 10px 10px 12px #d4d4d4,
+                -10px -10px 12px #faf6f6;
+                border-radius: 15px;
+ }
