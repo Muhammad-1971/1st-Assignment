@@ -6,7 +6,7 @@
 .nav{
   height: 15vh;
   width: 100%;
-  background-image: repeating-linear-gradient(#27686b,white);
+  background-image: repeating-linear-gradient(#11a811,white);
   border-bottom-left-radius: 45px;
   border-bottom-right-radius: 45px;
 
@@ -25,7 +25,7 @@ input{
   border-radius: 50px;
   border-left: 6px solid #ffffff;
   box-shadow: inset 5px 4px 6px #e7e7e4,
-             inset -5px -4px 8px #064d1d;
+             inset -5px -4px 8px #046823;
 
 }
 
@@ -94,7 +94,7 @@ height: 50vh;
 padding-bottom: 5px;
 }
 #text h1 span{
-  color: #e9a30c;
+  color: #1fe90c;
   font-size: 85px;
 }
 #text h3{
@@ -472,7 +472,7 @@ background-position: right;
   text-decoration:underline black;
 }
 #green{
-  color: greenyellow;
+  color: #1fe90c;
 }
 .white{
   color: white;
