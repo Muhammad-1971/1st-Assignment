@@ -331,13 +331,20 @@ background-position: right;
  }
  /* social sector */
  .follower-box-1{
-  height: 35vh;
+  height: 40vh;
   width: 100%;
   display: flex;
-
- 
- 
+ }
+ #fb{
+   color: rgb(65, 65, 156);
+   padding-right: 50px;
    
+ }
+ #insta{
+   color: purple;
+ }
+ #yout{
+   color: #b90f0f;
  }
  .box-social{
   margin: 0 auto;
