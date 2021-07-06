@@ -32,6 +32,7 @@ input{
 .nav-li {
   display: flex;
   list-style: none;
+  font-family: 'Rajdhani', sans-serif;
   
 }
 .nav-li a {
@@ -56,6 +57,7 @@ input{
   margin-right: 5%;
   font-size: 50px;
   text-shadow: 15px 10px 15px black;
+  font-family: 'Pacifico', cursive;
   
 }
 .logo:hover{
@@ -92,10 +94,13 @@ height: 50vh;
  font-size: 45px;
  font-weight: 700;
 padding-bottom: 5px;
+font-family: 'Secular One', sans-serif;
 }
 #text h1 span{
   color: #1fe90c;
   font-size: 85px;
+  font-family: 'Pacifico', cursive;
+  
 }
 #text h3{
   padding: 5px;
@@ -230,6 +235,7 @@ background-position: right;
 #article h1{
   padding-bottom: 20px;
   font-size: 45px;
+  font-family: 'Krona One', sans-serif;
 
 }
 #paragraph{
@@ -262,6 +268,7 @@ background-position: right;
     text-align: center;
     font-size: 50px;
     font-weight: 550;
+    font-family: 'Rajdhani', sans-serif;
   }
   #mrb-1{
     text-align: center;
@@ -269,6 +276,8 @@ background-position: right;
   margin: auto auto;
   height: 25px;
   width: 40%;
+  font-family: 'Cinzel', serif;
+font-family: 'Rajdhani', sans-serif;
   }
 
  .my-recipy-box-2{
@@ -323,11 +332,15 @@ background-position: right;
    padding-bottom: 10px;
    text-align: center;
    font-size: 25px;
+   font-family: 'Parisienne', cursive;
  }
  .rb-text-2 p{
    padding:20px 20px;
    text-align: justify;
    font-size: 18px;
+ }
+ .rb-text-2 h2:hover{
+   color: rgb(20, 230, 65);
  }
  /* social sector */
  .follower-box-1{
@@ -470,6 +483,7 @@ background-position: right;
   font-size: 30px;
   color: white;
   text-decoration:underline black;
+  font-family: 'Pacifico', cursive;
 }
 #green{
   color: #1fe90c;
@@ -477,6 +491,7 @@ background-position: right;
 .white{
   color: white;
   text-decoration: underline black;
+  font-family: 'Nunito', sans-serif;
 }
 
 
