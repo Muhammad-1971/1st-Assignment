@@ -1,0 +1,14 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.food-box-1{
+  height: 80vh;
+  width: 100%;
+  display: flex;
+}
+.half-width{
+width: 50%;
+height: 50vh;
+border: 1px solid black;
+}
