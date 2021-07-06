@@ -2,21 +2,26 @@
   margin: 0px;
   padding: 0px;
 }
+
+
+/* .food-box-1 */
+
+
+
 .food-box-1{
   height: 60vh;
   width: 100%;
   display: flex;
-  background-color: rgb(238, 238, 238);
+  background-color: #ffffff;
 }
 .half-width{
 padding-left: 5%;
 width: 50%;
 height: 50vh;
-border: 1px solid black;
-
 }
+
 #text{
-  border: 1px solid black;
+  
   margin-right: 15%;
   height: 40vh;
   padding-top: 8%;
@@ -34,8 +39,13 @@ padding-bottom: 5px;
 }
 #text h3{
   padding: 5px;
+  padding-right: 12%;
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 540;
+  text-align: justify;
+}
+#text h3 pre{
+  padding-top: 20px;
   text-align: center;
 }
 #oilmaro{
@@ -64,9 +74,6 @@ button{
   width: 70%;
   margin-bottom: 20px;
   margin-left: 15%;
- 
-  
-
 }
 
 #png{
@@ -78,4 +85,72 @@ button{
   margin-top: 25px;
   margin-left: 15%;
   border-radius: 55px;
+}
+
+
+/*section: box-2 */
+.food-box-2{
+  display: flex;
+height: 90vh;
+width: 100%;
+/* border: 1px solid black; */
+
+background-repeat: no-repeat;
+background-position: right;
+
+
+
+}
+.half-box-2{
+  width: 30%;
+}
+.right{
+  width: 70%;
+  
+}
+#bg-2{
+;
+  height: 75vh;
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+#bg-2 img{
+  width:120%;
+  height: 73vh;
+  margin-left: 5%;
+  padding-top: 45px;
+  padding-bottom: px;
+ 
+}
+#half-box-right{
+  display: flex;
+  border: 1px solid black;
+  height: 75vh;
+  width: 100%;
+  background-image: url("../images/Frame 57.jpg");
+  margin-top: 5%;
+  box-shadow: inset 10px 10px 12px #949292,
+               inset -10px -10px 12px #91d4eb;
+  border-radius: 25px;
+  
+}
+.about-me-artical{
+  margin: auto 35px;
+  width: 60%;
+  height: 50vh;
+  border: 1px solid black;
+}
+.about-me-png{
+  background-color: #ffffff;
+  width: 30%;
+  height: 60vh;
+  margin: 50px 35px;
+  border-radius: 15px;
+  background-image: url(images/the-galaxy-global-eatery-hemp-cookbook.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: inset 10px 10px 12px #2c5f13,
+                   -10px -10px 12px #1d6683;
+  
 }
