@@ -18,7 +18,7 @@ justify-content: space-between;
 }
 input{
   margin-top: 20px;
-  margin-left: 45px;
+  margin-left: 35px;
   padding: 9px 10px ;
   border-style: none;
   background-color: #faf8f7;
@@ -131,6 +131,10 @@ button{
   color: white;
   border-right:1px solid white ;
   font-size: 15px;
+}
+button:hover{
+  transform: scale(1.1);
+  transition: all 0.2s linear;
 }
 .half-width img{
   width: 100%;
@@ -330,6 +334,7 @@ background-position: right;
   height: 35vh;
   width: 100%;
   display: flex;
+
  
  
    
@@ -339,7 +344,7 @@ background-position: right;
    padding: 20px;
    height: 15vh;
    width: 75%;
-   border: 1px solid black;
+   /* border: 1px solid black; */
    box-shadow: 10px 10px 12px #d4d4d4,
                 -10px -10px 12px #faf6f6;
                 border-radius: 15px;
@@ -351,7 +356,15 @@ background-position: right;
   background-color: #3e6668;
    height: 58vh;
    width: 100%;
+   display: flex;   
+ }
+ .box-social ul{
+   padding: 65px;
+   justify-content: space-between;
+   background-color: white;
    display: flex;
+   list-style: none;
+   font-size: 20px;
  }
  .info-half{
    display: flex;
@@ -364,10 +377,7 @@ background-position: right;
   border-right: 1px solid rgb(255, 255, 255);
    margin-left: 15%;
  }
-.h{
- color: white;
- font-size: 25px;
- }
+
  .link-add{
     height: 45vh;
     width: 45%;
@@ -399,29 +409,67 @@ background-position: right;
   font-weight: 400;
   cursor: pointer;
  }
- #icon ul {
-   margin-left: 50%;
-   margin-top: 30%;
-   list-style: none;
-   display: flex;
+ .link-add a:hover {
+   color: black;
+   transition: all 0.2s linear;
+   text-decoration: 2px underline black;
+  
  }
- #icon ul li a{
-   padding: 15px;
-   color: white;
+ 
+ .icon{
+   height: 40vh;
+   width: 100%;
+   /* border: 1px solid black; */
  }
- #icon ul li a:hover i{
-   transform: scale(1.2);
- }
-#mail{
-  align-items: center;
+ .icon ul {
+  margin-left: 31%;
+  margin-top: 15%;
+  list-style: none;
+  display: flex;
+}
+.icon ul li a{
+  
+  padding: 15px;
+  color: white;
+}
+.icon ul li a:hover i{
+  transition: all 0.3s linear;
+  transform: scale(1.3);
 }
 #last{
-  text-decoration: none;
-  color: white;
-  list-style: none;
+  height: 45vh; 
 }
-#last h2{
-  margin-left: 60%;
+#inpu{
+ margin-left: 35%;
+}
+
+#last h2,p{
+ padding-top: 35px;
+ text-align: center;
+
+}
+.footer{
+  height: 15vh;
+  width: 100%;
+  background-color: black;
+}
+.footer{
+  padding-top: 15px;
   text-align: center;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
+.footer h1{
+  font-size: 30px;
+  color: white;
+  text-decoration:underline black;
+}
+#green{
+  color: greenyellow;
+}
+.white{
+  color: white;
+  text-decoration: underline black;
+}
+
 
