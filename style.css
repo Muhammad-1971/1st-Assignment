@@ -6,7 +6,7 @@
 .nav{
   height: 15vh;
   width: 100%;
-  background-image: repeating-linear-gradient(#10a810,white);
+  background-image: repeating-linear-gradient(#27686b,white);
   border-bottom-left-radius: 45px;
   border-bottom-right-radius: 45px;
 
@@ -94,7 +94,7 @@ height: 50vh;
 padding-bottom: 5px;
 }
 #text h1 span{
-  color: #48d848;
+  color: #e9a30c;
   font-size: 85px;
 }
 #text h3{
@@ -295,12 +295,12 @@ background-position: right;
  }
  .my-recipy-box-2 h2{
    text-align: center;
-   margin-top: 
- }
+   
+  }
  .img-rb-1 img{
  max-width: 100%;
  max-height: 100%;
- ba
+ 
  }
  #rb-1{
    background-image: url(images/Project\ Cover5.png);
@@ -326,7 +326,7 @@ background-position: right;
    font-size: 18px;
  }
  /* social sector */
- .social-box-1{
+ .follower-box-1{
   height: 35vh;
   width: 100%;
   display: flex;
@@ -344,3 +344,75 @@ background-position: right;
                 -10px -10px 12px #faf6f6;
                 border-radius: 15px;
  }
+
+
+ /* about box */
+ .about-box{
+  background-color: #3e6668;
+   height: 58vh;
+   width: 100%;
+   display: flex;
+ }
+ .info-half{
+   display: flex;
+   margin: auto;
+   height: 55vh;
+   width: 45%;
+   
+ }
+ .data{
+  border-right: 1px solid rgb(255, 255, 255);
+   margin-left: 15%;
+ }
+.h{
+ color: white;
+ font-size: 25px;
+ }
+ .link-add{
+    height: 45vh;
+    width: 45%;
+     /* border: 1px solid black;  */
+    margin-top: 60px;
+   
+ }
+ .link-add h3{
+   margin-top: 50px;
+   color: white;
+  margin-left: 30px;
+
+ }
+ .link-add ul a {
+   list-style: none;
+   text-decoration: none;
+   color: white;
+   font-size: 15px;
+   margin-bottom: 5px;
+   
+ }
+ .link-add ul {
+   margin-top: 40%;
+   margin-left: 30px;
+  
+ }
+ .link-add ul a li{
+  padding-bottom: 13px;
+  font-weight: 400;
+  cursor: pointer;
+ }
+ #icon ul {
+   margin-left: 50%;
+   margin-top: 30%;
+   list-style: none;
+   display: flex;
+ }
+ #icon ul li a{
+   padding: 15px;
+   color: white;
+ }
+ #icon ul li a:hover i{
+   transform: scale(1.2);
+ }
+#mail{
+  align-items: center;
+}
+
