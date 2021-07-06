@@ -35,7 +35,7 @@ padding-bottom: 5px;
 }
 #text h1 span{
   color: rgb(72, 216, 72);
-  font-size: 60px;
+  font-size: 85px;
 }
 #text h3{
   padding: 5px;
@@ -64,11 +64,13 @@ padding-bottom: 5px;
 button{
   border-left: 4px solid rgb(255, 255, 255);
   box-shadow: 5px 2px 6px rgb(80, 80, 80);
-  background-color: rgb(1, 12, 15);
+  background-image: linear-gradient(black,rgb(9, 87, 41));
   padding: 6px 10px;
   border-radius: 15px;
   margin-top: 10px;
   color: white;
+  border-right:1px solid white ;
+  font-size: 15px;
 }
 .half-width img{
   width: 70%;
@@ -120,11 +122,12 @@ background-position: right;
   margin-left: 5%;
   padding-top: 45px;
   padding-bottom: px;
+
  
 }
 #half-box-right{
   display: flex;
-  border: 1px solid black;
+
   height: 75vh;
   width: 100%;
   background-image: url("images/Frame 57.jpg");
@@ -134,13 +137,13 @@ background-position: right;
   border-radius: 25px;
   
 }
-.about-me-artical{
+#about-me-article{
   margin: auto 35px;
   width: 60%;
   height: 50vh;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
-.about-me-png{
+#about-me-png{
   background-color: #ffffff;
   width: 30%;
   height: 60vh;
@@ -150,6 +153,31 @@ background-position: right;
   background-position: center;
   background-repeat: no-repeat;
   box-shadow: inset 10px 10px 12px #2c5f13,
-                   -10px -10px 12px #1d6683;
+                   -5px -5px 12px #1d6683;
   
+}
+
+#article{
+  margin-left: 20%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+#article h1{
+  padding-bottom: 20px;
+  font-size: 35px;
+}
+#paragraph{
+  text-align: justify;
+  word-wrap: none;  
+  font-size: 18px;  
+  margin-top: 10%;
+  padding: 8%;
+  height: 40%;
+  width: 75%;
+  border-left: 10px solid;;
+  border-image: linear-gradient(rgb(134, 134, 139),rgb(26, 64, 122));
+  border-image-slice: 7;
+  background-color: #199edb2d;
+  border-bottom-left-radius: 65px;
+  border-top-right-radius: 65px;
 }
