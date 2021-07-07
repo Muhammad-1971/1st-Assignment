@@ -215,7 +215,7 @@ background-position: right;
   /* border: 1px solid black; */
 }
 #about-me-png{
-  background-color: #ffffff;
+  
   width: 30%;
   height: 60vh;
   margin: 50px 35px;
@@ -223,8 +223,8 @@ background-position: right;
   background-image: url(images/the-galaxy-global-eatery-hemp-cookbook.png);
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: inset 10px 10px 12px #2c5f13,
-                   -5px -5px 12px #1d6683;
+  box-shadow: inset 10px 10px 12px #234b10a4,
+                   -5px -5px 12px #217da1;
   
 }
 
@@ -333,7 +333,7 @@ font-family: 'Rajdhani', sans-serif;
    padding-bottom: 10px;
    text-align: center;
    font-size: 25px;
-   font-family: 'Parisienne', cursive;
+ 
  }
  .rb-text-2 p{
    padding:20px 20px;
