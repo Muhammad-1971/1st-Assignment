@@ -48,6 +48,7 @@ input{
   transition: all 0.2s linear;
 }
 .nav-li a:hover {
+  text-decoration: 3px underline black;
   color: whitesmoke;
   transform: scale(1.2 );
   transition: all 0.3s linear;
@@ -347,6 +348,11 @@ font-family: 'Rajdhani', sans-serif;
   height: 40vh;
   width: 100%;
   display: flex;
+ }
+ .box-social ul li a:hover i{
+  transform: scale(1.2);
+  transition: all 0.3s linear;
+
  }
  #fb{
    color: rgb(65, 65, 156);
