@@ -47,12 +47,12 @@ input{
   transform: scale(1.5);
   transition: all 0.2s linear;
 }
-.nav-li a:hover {
+ /* .nav-li a:hover {
   text-decoration: 3px underline black;
   color: whitesmoke;
   transform: scale(1.2 );
-  transition: all 0.3s linear;
-}
+  transition: all 0.3s linear; 
+}  */
 .logo{
   margin-top: 1%;
   margin-right: 5%;
@@ -61,11 +61,11 @@ input{
   font-family: 'Pacifico', cursive;
   
 }
-.logo:hover{
+/* .logo:hover{
   transform: scale(1.09);
   transition: all 0.4s linear;
   color: rgb(255, 255, 255);
-}
+} */
 
 /* .food-box-1 */
 
@@ -138,9 +138,9 @@ button{
   border-right:1px solid white ;
   font-size: 15px;
 }
-button:hover{
+/* button:hover{
   transform: scale(1.1);
-  transition: all 0.2s linear;
+  transition: all 0.2s linear; */
 }
 .half-width img{
   width: 100%;
@@ -349,11 +349,11 @@ font-family: 'Rajdhani', sans-serif;
   width: 100%;
   display: flex;
  }
- .box-social ul li a:hover i{
+ /* .box-social ul li a:hover i{
   transform: scale(1.2);
   transition: all 0.3s linear;
 
- }
+ } */
  #fb{
    color: rgb(65, 65, 156);
    padding-right: 50px;
@@ -435,12 +435,12 @@ font-family: 'Rajdhani', sans-serif;
   font-weight: 400;
   cursor: pointer;
  }
- .link-add a:hover {
+ /* .link-add a:hover {
    color: black;
    transition: all 0.2s linear;
    text-decoration: 2px underline black;
   
- }
+ } */
  
  .icon{
    height: 40vh;
@@ -458,10 +458,10 @@ font-family: 'Rajdhani', sans-serif;
   padding: 15px;
   color: white;
 }
-.icon ul li a:hover i{
+/* .icon ul li a:hover i{
   transition: all 0.3s linear;
   transform: scale(1.3);
-}
+} */
 #last{
   height: 45vh; 
 }
@@ -499,9 +499,9 @@ font-family: 'Rajdhani', sans-serif;
   text-decoration: underline black;
   font-family: 'Nunito', sans-serif;
 }
-.footer h1:hover{
+/* .footer h1:hover{
   transform: scale(1.1);
   transition: all 0.3s linear;
-}
+} */
 
 
