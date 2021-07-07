@@ -42,11 +42,11 @@ input{
   padding: 25px;
   color: black;
 }
-.fa-search:hover{
+/* .fa-search:hover{
   
   transform: scale(1.5);
   transition: all 0.2s linear;
-}
+} */
  /* .nav-li a:hover {
   text-decoration: 3px underline black;
   color: whitesmoke;
